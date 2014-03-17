@@ -1,4 +1,4 @@
-set :build_dir, '../faq'
+set :build_dir, '../apps'
 
 activate :livereload
 activate :i18n, :path => "/:locale/" #, :mount_at_root => false
