@@ -30,11 +30,11 @@ APPS_FILE = 'apps.json'
 
 apps = {
   'results' => [
-    {
-      'id' => 821926670,
-      'tier' => 1, # 0.99
-      'scheme' => 'fb598145903601399' # specify to check for install
-    },
+    # {
+    #   'id' => 821926670,
+    #   'tier' => 1, # 0.99
+    #   'sch' => 'fb598145903601399' # specify to check for install
+    # },
   ]
 }
 File.write(build_dir + '/' + APPS_FILE, apps.to_json)
