@@ -6,7 +6,8 @@ end
 # puts "writing #{filePath} #{defaults}" #.colorize(:light_green)
 
 require 'plist'
-DEFAULTS_FILE = 'defaults.plist'
+# DEFAULTS_FILE = 'defaults.plist'
+DEFAULTS_FILE = 'defaults.json'
 
 defaults = { # do not use dots
   'msgs' => [
@@ -22,7 +23,8 @@ defaults = { # do not use dots
     },
   ],
 }
-File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_plist)
+# File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_plist)
+File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_json)
 
 
 require 'json'
