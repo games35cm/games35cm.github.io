@@ -11,16 +11,16 @@ DEFAULTS_FILE = 'defaults.json'
 
 defaults = { # do not use dots
   'msgs' => [
-    {
-      'aps' => {
-        'alert' => 'Check out our Flappy Chick Dark Side game!'
-      },
-      'bfx' => {
-        'lnk' => 'https://itunes.apple.com/app/id821926670',
-        'act' => 'Download',
-        'sch' => 'fb598145903601399'
-      },
-    },
+    # {
+    #   'aps' => {
+    #     'alert' => 'Check out our Flappy Chick Dark Side game!'
+    #   },
+    #   'bfx' => {
+    #     'lnk' => 'https://itunes.apple.com/app/id821926670',
+    #     'act' => 'Download',
+    #     'sch' => 'fb598145903601399'
+    #   },
+    # },
   ],
 }
 # File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_plist)
