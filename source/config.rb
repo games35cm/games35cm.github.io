@@ -1,3 +1,5 @@
+require 'faed'
+
 set :build_dir, '../apps'
 
 activate :livereload

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>msgs</key>
+	<array>
+		<dict>
+			<key>aps</key>
+			<dict>
+				<key>alert</key>
+				<string>Check out our Flappy Chick Dark Side game!</string>
+			</dict>
+			<key>bfx</key>
+			<dict>
+				<key>act</key>
+				<string>Download</string>
+				<key>lnk</key>
+				<string>https://itunes.apple.com/app/id821926670</string>
+				<key>sch</key>
+				<string>fb598145903601399</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
