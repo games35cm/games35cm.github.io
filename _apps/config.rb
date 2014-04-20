@@ -1,10 +1,10 @@
-require 'faed'
+# require 'less'
 
 set :build_dir, '../apps'
 
 activate :livereload
-activate :i18n, :path => "/:locale/" #, :mount_at_root => false
-# activate :directory_indexes
+activate :i18n, :path => "/:locale/", :mount_at_root => false
+activate :directory_indexes
 
 set :css_dir, 'css'
 set :js_dir, 'js'
@@ -19,4 +19,3 @@ configure :build do
   # Use relative URLs
   activate :relative_assets
 end
-
