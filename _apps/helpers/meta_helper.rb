@@ -1,23 +1,24 @@
 require 'ERB'
 
 def page_title
-  title = I18n.t(:company) #Set site title here
-
-  ttl = "#{data.page.title}"
-  begin
-    newttl = "#{eval(data.page.title)}"
-    ttl = newttl
-  rescue Exception => exc
-    ttl = "#{data.page.title}"
-  end
+  # title = I18n.t(:company) #Set site title here
+  data.page.title
   
-  # puts "ttl #{ttl.length}"
+  # ttl = "#{data.page.title}"
+  # begin
+  #   newttl = "#{eval(data.page.title)}"
+  #   ttl = newttl
+  # rescue Exception => exc
+  #   ttl = "#{data.page.title}"
+  # end
+  
+  # # puts "ttl #{ttl.length}"
 
-  if ttl.length > 0
-    title = ttl# I18n.t(data.page.title)
-  end
+  # if ttl.length > 0
+  #   title = ttl# I18n.t(data.page.title)
+  # end
 
-  title
+  # title
 end
 
 def page_description

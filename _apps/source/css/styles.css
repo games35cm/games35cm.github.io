@@ -23,7 +23,6 @@ hr {
 	.container {
 		max-width: 768px;
 		margin: 40px auto;
-		// background-color: red;
 	}
 	.container h1 {
 		font-size: 24px;

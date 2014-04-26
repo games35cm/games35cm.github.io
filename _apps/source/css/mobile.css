@@ -109,6 +109,10 @@ img {
     border-bottom: 1px solid #ccc;
 }
 
+.form-body .txt-cont p {
+    color: #4f4f4f;
+}
+
 .form-body .txt-cont ul.section li:last-child {
     border-bottom: 0;
 }
