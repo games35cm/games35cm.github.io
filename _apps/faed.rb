@@ -39,9 +39,6 @@ apps = {
       'sch' => 'fb598145903601399', # specify to check for install
       'edit' => 'http://games35cm.github.io/apps/faed/editorial/29apr?cache=no',
       'screenshotUrls' => [
-        'http://games35cm.github.io/apps/faed/editorial/29apr/1.png',
-        'http://games35cm.github.io/apps/faed/editorial/29apr/3.png',
-        'http://games35cm.github.io/apps/faed/editorial/29apr/2.png'
       ]
     },
   ]
