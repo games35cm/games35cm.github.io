@@ -5,7 +5,8 @@ end
 # filePath = build_dir + '/' + DEFAULTS_FILE
 # puts "writing #{filePath} #{defaults}" #.colorize(:light_green)
 
-require 'plist'
+# require 'plist'
+require 'json'
 # DEFAULTS_FILE = 'defaults.plist'
 DEFAULTS_FILE = 'defaults.json'
 
@@ -32,11 +33,12 @@ APPS_FILE = 'apps.json'
 
 apps = {
   'results' => [
-    # {
-    #   'id' => 821926670,
-    #   'tier' => 1, # 0.99
-    #   'sch' => 'fb598145903601399' # specify to check for install
-    # },
+    {
+      'id' => 821926670,
+      'tier' => 1, # 0.99
+      'sch' => 'fb598145903601399', # specify to check for install
+      'edit' => 'http://games35cm.github.io/faed/editorial/29apr?cache=no'
+    },
   ]
 }
 File.write(build_dir + '/' + APPS_FILE, apps.to_json)
