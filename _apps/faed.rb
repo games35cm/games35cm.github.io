@@ -37,7 +37,7 @@ apps = {
       'id' => 821926670,
       'tier' => 1, # 0.99
       'sch' => 'fb598145903601399', # specify to check for install
-      'edit' => 'http://games35cm.github.io/faed/editorial/29apr?cache=no'
+      'edit' => 'http://games35cm.github.io/apps/faed/editorial/29apr?cache=no'
     },
   ]
 }
