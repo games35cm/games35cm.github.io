@@ -28,17 +28,24 @@ defaults = { # do not use dots
 File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_json)
 
 
-require 'json'
-APPS_FILE = 'apps.json'
+APPS_PHONE_FILE = 'apps-phone.json'
+APPS_PAD_FILE = 'apps-pad.json'
 
 apps = {
   'results' => [
     {
       'id' => 821926670,
-      'tier' => 1, # 0.99
+      'tier' => 1, # equals $0.99
       'sch' => 'fb598145903601399', # specify to check for install
-      'edit' => 'http://games35cm.github.io/apps/faed/editorial/29apr?cache=no'
+      'edit' => 'http://games35cm.github.io/apps/faed/editorial/29apr?cache=no',
+      'screenshotUrls' => [
+        'http://games35cm.github.io/apps/faed/editorial/29apr/1.png',
+        'http://games35cm.github.io/apps/faed/editorial/29apr/3.png',
+        'http://games35cm.github.io/apps/faed/editorial/29apr/2.png'
+      ]
     },
   ]
 }
-File.write(build_dir + '/' + APPS_FILE, apps.to_json)
+
+File.write(build_dir + '/' + APPS_PHONE_FILE, apps.to_json)
+File.write(build_dir + '/' + APPS_PAD_FILE, apps.to_json)
