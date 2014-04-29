@@ -17,8 +17,12 @@ defaults = {
     'youtube.com',
     'googlevideo.com',
     'soundcloud.com',
-    'mp3skull.com'
+    'mp3skull.com',
+    'mp3monkey.com',
+    'soundowl.com'
   ],
+  'nodwl' => 1,
+  'noext' => 1,
   # 'sales' => 'hotsales',
   # 'com.bfx.motd' => {
   #   'aps' => {
