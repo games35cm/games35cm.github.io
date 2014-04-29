@@ -13,7 +13,11 @@ defaults = {
   'com.bfx.motd' => '',
   'com.bfx.cii' => 132,
   'com.bfx.cri' => 200,
-  'com.bfx.blacklistedHosts' => [
+  'allowedHosts' => [
+    'vk.com',
+    'vk.ru'
+  ],
+  'blacklistedHosts' => [
     'youtube.com',
     'googlevideo.com',
     'soundcloud.com',
@@ -21,8 +25,6 @@ defaults = {
     'mp3monkey.com',
     'soundowl.com'
   ],
-  'nodwl' => 1,
-  'noext' => 1,
   # 'sales' => 'hotsales',
   # 'com.bfx.motd' => {
   #   'aps' => {
@@ -52,3 +54,4 @@ filePath = build_dir + '/' + DEFAULTS_FILE
 puts "writing #{filePath} #{defaults}" #.colorize(:light_green)
 # File.write(filePath, defaults.to_plist)
 File.write(filePath, defaults.to_json)
+File.write(File.join(File.expand_path("../apps/en/fmd"), DEFAULTS_FILE), defaults.to_json)
