@@ -1,7 +1,8 @@
-require 'plist'
-# require 'colorize'
+# require 'plist'
+# DEFAULTS_FILE = 'defaults.plist'
 
-DEFAULTS_FILE = 'defaults.plist'
+require 'json'
+DEFAULTS_FILE = 'defaults.json'
 
 #
 # NEVER EVER USE DOTS IN THE FUTURE !!!
@@ -45,4 +46,5 @@ unless File.directory?(build_dir)
 end
 filePath = build_dir + '/' + DEFAULTS_FILE
 puts "writing #{filePath} #{defaults}" #.colorize(:light_green)
-File.write(filePath, defaults.to_plist)
+# File.write(filePath, defaults.to_plist)
+File.write(filePath, defaults.to_json)
