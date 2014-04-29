@@ -13,10 +13,10 @@ defaults = {
   'com.bfx.motd' => '',
   'com.bfx.cii' => 132,
   'com.bfx.cri' => 200,
-  'allowedHosts' => [
-    'vk.com',
-    'vk.ru'
-  ],
+  # 'allowedHosts' => [
+  #   'vk.com',
+  #   'vk.ru'
+  # ],
   'blacklistedHosts' => [
     'youtube.com',
     'googlevideo.com',
