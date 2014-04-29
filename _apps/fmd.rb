@@ -13,18 +13,17 @@ defaults = {
   'com.bfx.motd' => '',
   'com.bfx.cii' => 132,
   'com.bfx.cri' => 200,
-  # 'allowedHosts' => [
-  #   'vk.com',
-  #   'vk.ru'
-  # ],
-  'blacklistedHosts' => [
-    'youtube.com',
-    'googlevideo.com',
-    'soundcloud.com',
-    'mp3skull.com',
-    'mp3monkey.com',
-    'soundowl.com'
+  'allowedHosts' => [
+    'github.io',
   ],
+  # 'blacklistedHosts' => [
+  #   'youtube.com',
+  #   'googlevideo.com',
+  #   'soundcloud.com',
+  #   'mp3skull.com',
+  #   'mp3monkey.com',
+  #   'soundowl.com'
+  # ],
   # 'sales' => 'hotsales',
   # 'com.bfx.motd' => {
   #   'aps' => {
