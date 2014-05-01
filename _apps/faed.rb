@@ -27,23 +27,37 @@ defaults = { # do not use dots
 # File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_plist)
 File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_json)
 
-
 APPS_PHONE_FILE = 'apps-phone.json'
 APPS_PAD_FILE = 'apps-pad.json'
+
+GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
+# GAMES35CM_ROOT = 'http://localhost:4567/faed'
 
 apps = {
   'results' => [
     {
-      'id' => 821926670,
-      'tier' => 1, # equals $0.99
-      'sch' => 'fb598145903601399', # specify to check for install
-      'edit' => 'http://games35cm.github.io/apps/faed/editorial/29apr?cache=no',
+      'id' => 656620224,
+      'tier' => 0, # equals $0.99
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may?cache=no",
       'screenshotUrls' => [
-        "http://games35cm.github.io/apps/faed/editorial/29apr/1.png",
-        "http://games35cm.github.io/apps/faed/editorial/29apr/3.png",
-        "http://games35cm.github.io/apps/faed/editorial/29apr/2.png"
+        "#{GAMES35CM_ROOT}/editorial/may/1.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may/2.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may/3.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may/4.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may/5.JPG"
       ]
     },
+    # {
+    #   'id' => 821926670,
+    #   'tier' => 1, # equals $0.99
+    #   'sch' => 'fb598145903601399', # specify to check for install
+    #   'edit' => 'http://games35cm.github.io/apps/faed/editorial/29apr?cache=no',
+    #   'screenshotUrls' => [
+    #     "http://games35cm.github.io/apps/faed/editorial/29apr/1.png",
+    #     "http://games35cm.github.io/apps/faed/editorial/29apr/3.png",
+    #     "http://games35cm.github.io/apps/faed/editorial/29apr/2.png"
+    #   ]
+    # },
   ]
 }
 
