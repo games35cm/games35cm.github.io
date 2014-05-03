@@ -40,11 +40,11 @@ apps = {
       'tier' => 0, # equals $0.99
       'edit' => "#{GAMES35CM_ROOT}/editorial/may4?cache=no",
       'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/may4/1.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may4/2.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may4/3.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may4/4.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may4/5.JPG"
+        "#{GAMES35CM_ROOT}/editorial/may4/1.png",
+        "#{GAMES35CM_ROOT}/editorial/may4/2.png",
+        "#{GAMES35CM_ROOT}/editorial/may4/3.png",
+        "#{GAMES35CM_ROOT}/editorial/may4/4.png",
+        "#{GAMES35CM_ROOT}/editorial/may4/5.png"
       ]
     },
     # {
