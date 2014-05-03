@@ -36,17 +36,29 @@ GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
 apps = {
   'results' => [
     {
-      'id' => 656620224,
+      'id' => 868124960,
       'tier' => 0, # equals $0.99
-      'edit' => "#{GAMES35CM_ROOT}/editorial/may?cache=no",
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may4?cache=no",
       'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/may/1.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may/2.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may/3.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may/4.JPG",
-        "#{GAMES35CM_ROOT}/editorial/may/5.JPG"
+        "#{GAMES35CM_ROOT}/editorial/may4/1.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may4/2.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may4/3.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may4/4.JPG",
+        "#{GAMES35CM_ROOT}/editorial/may4/5.JPG"
       ]
     },
+    # {
+    #   'id' => 656620224,
+    #   'tier' => 0, # equals $0.99
+    #   'edit' => "#{GAMES35CM_ROOT}/editorial/may?cache=no",
+    #   'screenshotUrls' => [
+    #     "#{GAMES35CM_ROOT}/editorial/may/1.JPG",
+    #     "#{GAMES35CM_ROOT}/editorial/may/2.JPG",
+    #     "#{GAMES35CM_ROOT}/editorial/may/3.JPG",
+    #     "#{GAMES35CM_ROOT}/editorial/may/4.JPG",
+    #     "#{GAMES35CM_ROOT}/editorial/may/5.JPG"
+    #   ]
+    # },
     # {
     #   'id' => 821926670,
     #   'tier' => 1, # equals $0.99
