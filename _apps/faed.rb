@@ -36,17 +36,28 @@ GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
 apps = {
   'results' => [
     {
-      'id' => 868124960,
-      'tier' => 0, # equals $0.99
-      'edit' => "#{GAMES35CM_ROOT}/editorial/may4?cache=no",
+      'id' => 699560534, #https://itunes.apple.com/ru/app/printer-pro-convert-documents/id699560534?l=en&mt=8
+      'tier' => 2, # equals $0.99
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may5?cache=no",
       'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/may4/1.png",
-        "#{GAMES35CM_ROOT}/editorial/may4/2.png",
-        "#{GAMES35CM_ROOT}/editorial/may4/3.png",
-        "#{GAMES35CM_ROOT}/editorial/may4/4.png",
-        "#{GAMES35CM_ROOT}/editorial/may4/5.png"
+        "#{GAMES35CM_ROOT}/editorial/may5/1.png",
+        "#{GAMES35CM_ROOT}/editorial/may5/2.png",
+        "#{GAMES35CM_ROOT}/editorial/may5/3.png",
+        "#{GAMES35CM_ROOT}/editorial/may5/4.png"
       ]
     },
+    # {
+    #   'id' => 868124960,
+    #   'tier' => 0, # equals $0.99
+    #   'edit' => "#{GAMES35CM_ROOT}/editorial/may4?cache=no",
+    #   'screenshotUrls' => [
+    #     "#{GAMES35CM_ROOT}/editorial/may4/1.png",
+    #     "#{GAMES35CM_ROOT}/editorial/may4/2.png",
+    #     "#{GAMES35CM_ROOT}/editorial/may4/3.png",
+    #     "#{GAMES35CM_ROOT}/editorial/may4/4.png",
+    #     "#{GAMES35CM_ROOT}/editorial/may4/5.png"
+    #   ]
+    # },
     # {
     #   'id' => 656620224,
     #   'tier' => 0, # equals $0.99
