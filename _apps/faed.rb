@@ -38,7 +38,7 @@ apps = {
     {
       'id' => 385145330, #https://itunes.apple.com/ru/app/pocketbooth-photobooth-that/id385145330?l=en&mt=8
       'tier' => 1, # equals $0.99
-      'edit' => "#{GAMES35CM_ROOT}/editorial/may5?cache=no",
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may6?cache=no",
       'screenshotUrls' => [
         "#{GAMES35CM_ROOT}/editorial/may6/1.png",
         "#{GAMES35CM_ROOT}/editorial/may6/2.png",
