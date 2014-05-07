@@ -36,15 +36,25 @@ GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
 apps = {
   'results' => [
     {
-      'id' => 385145330, #https://itunes.apple.com/ru/app/pocketbooth-photobooth-that/id385145330?l=en&mt=8
+      'id' => 427714758, #https://itunes.apple.com/ru/app/currency+-currency-exchange/id427714758?l=en&mt=8
       'tier' => 1, # equals $0.99
-      'edit' => "#{GAMES35CM_ROOT}/editorial/may6?cache=no",
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may8?cache=no",
       'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/may6/1.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may6/2.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may6/3.PNG"
+        "#{GAMES35CM_ROOT}/editorial/may8/1.PNG",
+        "#{GAMES35CM_ROOT}/editorial/may8/2.PNG",
+        "#{GAMES35CM_ROOT}/editorial/may8/3.PNG"
       ]
     },
+    # {
+    #   'id' => 385145330, #https://itunes.apple.com/ru/app/pocketbooth-photobooth-that/id385145330?l=en&mt=8
+    #   'tier' => 1, # equals $0.99
+    #   'edit' => "#{GAMES35CM_ROOT}/editorial/may6?cache=no",
+    #   'screenshotUrls' => [
+    #     "#{GAMES35CM_ROOT}/editorial/may6/1.PNG",
+    #     "#{GAMES35CM_ROOT}/editorial/may6/2.PNG",
+    #     "#{GAMES35CM_ROOT}/editorial/may6/3.PNG"
+    #   ]
+    # },
     # {
     #   'id' => 699560534, #https://itunes.apple.com/ru/app/printer-pro-convert-documents/id699560534?l=en&mt=8
     #   'tier' => 2, # equals $0.99
