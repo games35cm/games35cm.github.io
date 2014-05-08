@@ -17,22 +17,20 @@ defaults = {
   'com.bfx.cri' => 200,
   'allowedHosts' => [
     'NOALLOWED',
-    # 'github.io',
+  ],
+  'blacklistedHosts' => [
+    'youtube.com',
+    'googlevideo.com',
+    'soundcloud.com',
+    'mp3skull.com',
+    'mp3monkey.com',
+    'soundowl.com'
   ],
   'rules' => [
     {
       'allowedHosts' => [ 'NOALLOWED' ]
     }
   ],
-
-  # 'blacklistedHosts' => [
-  #   'youtube.com',
-  #   'googlevideo.com',
-  #   'soundcloud.com',
-  #   'mp3skull.com',
-  #   'mp3monkey.com',
-  #   'soundowl.com'
-  # ],
   'agreement' => 'I take responsibility for any downloads made within this app. I will not violate local copyright laws and use this app only for accessing legal content.',
   # 'sales' => 'hotsales',
   # 'com.bfx.motd' => {
