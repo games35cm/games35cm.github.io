@@ -4,6 +4,8 @@
 require 'json'
 DEFAULTS_FILE = 'defaults.json'
 
+require 'plist'
+DEFAULTS_PLIST = 'defaults.plist'
 #
 # NEVER EVER USE DOTS IN THE FUTURE !!!
 #
@@ -62,3 +64,4 @@ puts "writing #{filePath} #{defaults}" #.colorize(:light_green)
 # File.write(filePath, defaults.to_plist)
 File.write(filePath, defaults.to_json)
 File.write(File.join(File.expand_path("../apps/en/fmd"), DEFAULTS_FILE), defaults.to_json)
+File.write(File.join(File.expand_path("../apps/en/fmd"), DEFAULTS_PLIST), defaults.to_plist)
