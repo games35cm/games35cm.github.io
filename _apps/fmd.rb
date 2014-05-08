@@ -14,7 +14,8 @@ defaults = {
   'com.bfx.cii' => 132,
   'com.bfx.cri' => 200,
   'allowedHosts' => [
-    'github.io',
+    'NOALLOWED',
+    # 'github.io',
   ],
   # 'blacklistedHosts' => [
   #   'youtube.com',
