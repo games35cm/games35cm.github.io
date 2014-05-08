@@ -17,6 +17,12 @@ defaults = {
     'NOALLOWED',
     # 'github.io',
   ],
+  'rules' => [
+    {
+      'allowedHosts' => [ 'NOALLOWED' ]
+    }
+  ],
+
   # 'blacklistedHosts' => [
   #   'youtube.com',
   #   'googlevideo.com',
