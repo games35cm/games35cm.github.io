@@ -36,16 +36,26 @@ GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
 apps = {
   'results' => [
     {
-      'id' => 730712409, #https://itunes.apple.com/ru/app/procam-2/id730712409?l=en&mt=8
-      'tier' => 2, # equals $0.99 
-      'edit' => "#{GAMES35CM_ROOT}/editorial/may14?cache=no",
+      'id' => 697927927, #https://itunes.apple.com/ru/app/calendars-5-smart-calendar/id697927927?l=en&mt=8
+      'tier' => 4, # equals $0.99 
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may19?cache=no",
       'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/may14/1.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may14/2.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may14/3.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may14/4.PNG"
+        "#{GAMES35CM_ROOT}/editorial/may19/1.PNG",
+        "#{GAMES35CM_ROOT}/editorial/may19/2.PNG",
+        "#{GAMES35CM_ROOT}/editorial/may19/3.PNG"
       ]
     },
+    # {
+    #   'id' => 730712409, #https://itunes.apple.com/ru/app/procam-2/id730712409?l=en&mt=8
+    #   'tier' => 2, # equals $0.99 
+    #   'edit' => "#{GAMES35CM_ROOT}/editorial/may14?cache=no",
+    #   'screenshotUrls' => [
+    #     "#{GAMES35CM_ROOT}/editorial/may14/1.PNG",
+    #     "#{GAMES35CM_ROOT}/editorial/may14/2.PNG",
+    #     "#{GAMES35CM_ROOT}/editorial/may14/3.PNG",
+    #     "#{GAMES35CM_ROOT}/editorial/may14/4.PNG"
+    #   ]
+    # },
     # {
     #   'id' => 435879559, #https://itunes.apple.com/ru/app/skill-game-arcade/id435879559?l=en&mt=8
     #   'tier' => 2, # equals $0.99 
