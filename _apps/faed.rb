@@ -36,15 +36,26 @@ GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
 apps = {
   'results' => [
     {
-      'id' => 697927927, #https://itunes.apple.com/ru/app/calendars-5-smart-calendar/id697927927?l=en&mt=8
-      'tier' => 4, # equals $0.99 
-      'edit' => "#{GAMES35CM_ROOT}/editorial/may19?cache=no",
+      'id' => 637494062, #https://itunes.apple.com/ru/app/recordium-pro-voice-recorder/id637494062?l=en&mt=8
+      'tier' => 2, # equals $0.99 
+      'edit' => "#{GAMES35CM_ROOT}/editorial/may23?cache=no",
       'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/may19/1.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may19/2.PNG",
-        "#{GAMES35CM_ROOT}/editorial/may19/3.PNG"
+        "#{GAMES35CM_ROOT}/editorial/may23/1.PNG",
+        "#{GAMES35CM_ROOT}/editorial/may23/2.PNG",
+        "#{GAMES35CM_ROOT}/editorial/may23/3.PNG"
       ]
     },
+  # 'results' => [
+  #   {
+  #     'id' => 697927927, #https://itunes.apple.com/ru/app/calendars-5-smart-calendar/id697927927?l=en&mt=8
+  #     'tier' => 4, # equals $0.99 
+  #     'edit' => "#{GAMES35CM_ROOT}/editorial/may19?cache=no",
+  #     'screenshotUrls' => [
+  #       "#{GAMES35CM_ROOT}/editorial/may19/1.PNG",
+  #       "#{GAMES35CM_ROOT}/editorial/may19/2.PNG",
+  #       "#{GAMES35CM_ROOT}/editorial/may19/3.PNG"
+  #     ]
+  #   },
     # {
     #   'id' => 730712409, #https://itunes.apple.com/ru/app/procam-2/id730712409?l=en&mt=8
     #   'tier' => 2, # equals $0.99 
