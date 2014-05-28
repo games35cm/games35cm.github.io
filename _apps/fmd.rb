@@ -17,17 +17,17 @@ defaults = {
   # 'allowedHosts' => [
   #   'NOALLOWED',
   # ],
-  # 'blacklistedHosts' => [
-  #   'youtube.com',
-  #   'googlevideo.com',
-  #   'soundcloud.com',
-  #   'mp3skull.com',
-  #   'mp3monkey.com',
-  #   'soundowl.com'
-  # ],
   'rules' => [
     {
-      'allowedHosts' => [ 'NOALLOWED' ]
+      # 'allowedHosts' => [ 'NOALLOWED' ]
+      'blacklistedHosts' => [
+        'youtube.com',
+        'googlevideo.com',
+        'soundcloud.com',
+        'mp3skull.com',
+        'mp3monkey.com',
+        'soundowl.com'
+      ],
     },
     {
       'brw' => 1

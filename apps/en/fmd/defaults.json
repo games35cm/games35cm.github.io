@@ -1,1 +1,1 @@
-{"cii":132,"cri":200,"rules":[{"allowedHosts":["NOALLOWED"]},{"brw":1}]}
+{"cii":132,"cri":200,"rules":[{"blacklistedHosts":["youtube.com","googlevideo.com","soundcloud.com","mp3skull.com","mp3monkey.com","soundowl.com"]},{"brw":1}]}
