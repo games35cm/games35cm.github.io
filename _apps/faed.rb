@@ -35,16 +35,16 @@ GAMES35CM_ROOT = 'http://games35cm.github.io/apps/faed'
 
 apps = {
   'results' => [
-    {
-      'id' => 876347303, #https://itunes.apple.com/ru/app/woody-eagle/id876347303?l=en&mt=8
-      'tier' => 2, # equals $0.99 
-      'edit' => "#{GAMES35CM_ROOT}/editorial/jun19?cache=no",
-      'screenshotUrls' => [
-        "#{GAMES35CM_ROOT}/editorial/jun19/1.png",
-        "#{GAMES35CM_ROOT}/editorial/jun19/2.png",
-        "#{GAMES35CM_ROOT}/editorial/jun19/3.png"
-      ]
-    },
+    # {
+    #   'id' => 876347303, #https://itunes.apple.com/ru/app/woody-eagle/id876347303?l=en&mt=8
+    #   'tier' => 2, # equals $0.99 
+    #   'edit' => "#{GAMES35CM_ROOT}/editorial/jun19?cache=no",
+    #   'screenshotUrls' => [
+    #     "#{GAMES35CM_ROOT}/editorial/jun19/1.png",
+    #     "#{GAMES35CM_ROOT}/editorial/jun19/2.png",
+    #     "#{GAMES35CM_ROOT}/editorial/jun19/3.png"
+    #   ]
+    # },
     # {
     #   'id' => 637494062, #https://itunes.apple.com/ru/app/recordium-pro-voice-recorder/id637494062?l=en&mt=8
     #   'tier' => 2, # equals $0.99 
