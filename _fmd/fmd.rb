@@ -19,11 +19,14 @@ defaults = {
         'mp3monkey.com',
         'soundowl.com'
       ],
+      'cii' => 132,
+      'cri' => 200,
     },
-  ],
-
-  'cii' => 132,
-  'cri' => 200,
+    {
+      'brw' => 1,
+      'debug' => 1
+    }
+  ]
 }
 
 # File.write(File.expand_path("./source/defaults.plist"), defaults.to_plist)
