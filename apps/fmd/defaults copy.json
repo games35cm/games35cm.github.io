@@ -18,7 +18,8 @@
         "soundowl.com"
       ],
       "cii": 10,
-      "cri": 0
+      "cri": 0,
+        "ssl": 1
     }
   ]
 }
