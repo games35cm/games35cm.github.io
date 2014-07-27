@@ -6,8 +6,7 @@
         "motd": {
             "msg": "Dear users! We apologize, SoundCloud is not available at the moment! Please come back later.",
             "act": "OK"
-        },
-        "gmd": 1
+        }
     }
   ]
 }
