@@ -1,1 +1,12 @@
-{"rules":[{"blacklistedHosts":["youtube.com","googlevideo.com","soundcloud.com","mp3skull.com","mp3monkey.com","soundowl.com"],"cii":10,"cri":0}]}
+{
+  "rules": [
+    {
+        "cii": 30,
+        "com.bfx.cii": 30,
+        "motd": {
+            "msg": "Dear users! We apologize, SoundCloud is not available at the moment! Please come back later.",
+            "act": "OK"
+        }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "rules": [
+    {
+        "cii": 30,
+        "com.bfx.cii": 90,
+        "motd": {
+            "msg": "Dear users! We apologize, but SoundCloud API is not available at the moment! We will get back to normal soon.",
+            "act": "OK"
+        }
+    },
+    {
+      "blacklistedHosts": [
+        "youtube.com",
+        "googlevideo.com",
+        "soundcloud.com",
+        "mp3skull.com",
+        "mp3monkey.com",
+        "soundowl.com"
+      ],
+      "cii": 10,
+      "cri": 0
+    }
+  ]
+}
