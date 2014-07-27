@@ -7,7 +7,7 @@
             "msg": "Dear users! We apologize, SoundCloud is not available at the moment! Please come back later.",
             "act": "OK"
         },
-        "ssl": 1
+        "ssl": 0
     }
   ]
 }
