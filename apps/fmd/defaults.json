@@ -1,13 +1,10 @@
 {
   "rules": [
     {
-        "cii": 130,
-        "com.bfx.cii": 130,
-        "motd": {
-            "msg": "Dear users! We apologize, SoundCloud is not available at the moment! We are looking into the issue.",
-            "act": "OK",
-            "frc": 1
-        }
+        "ssl": 0,
+        "skp": 1,
+        "cii": 99,
+        "com.bfx.cii": 99
     }
   ]
 }
