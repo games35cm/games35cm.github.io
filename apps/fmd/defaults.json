@@ -1,24 +1,6 @@
 {
   "rules": [
     {
-            "motd": {
-                "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
-                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=891946006",
-                "act": "5 звезд",
-                "idc": "rt26aug"
-            },
-            "loc": "RU"
-        },
-        {
-            "motd": {
-                "msg": "Dear users, are you enjoying the update? Please rate us.",
-                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=891946006",
-                "act": "5 stars",
-                "idc": "rt26aug"
-            },
-            "NOT": {"loc": "RU"}
-        },
-    {
       "skp": 1,
       "tz": -25200
     },
