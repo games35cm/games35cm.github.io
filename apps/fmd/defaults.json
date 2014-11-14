@@ -8,8 +8,11 @@
       "dflt": {
         "sckey": "XSGYiNkhWe60LlcYKwdw"
       },
-      "ssl": 1,
-      "cii": 99
+      "ssl": 0
+    },
+    {
+      "cii": 99,
+      "com.bfx.cii": 99
     }
   ]
 }
