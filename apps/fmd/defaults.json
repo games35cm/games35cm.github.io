@@ -13,15 +13,6 @@
     {
       "cii": 90,
       "com.bfx.cii": 90
-    },
-    {
-        "motd": {
-            "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв! Обновление на подходе.",
-            "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=891946006",
-            "act": "5 звезд",
-            "idc": "rt24jul"
-        },
-        "loc": "RU"
     }
   ]
 }
