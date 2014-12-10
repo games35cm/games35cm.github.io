@@ -13,6 +13,29 @@
     {
       "cii": 90,
       "com.bfx.cii": 90
+    },
+    {
+      "motd": {
+        "msg": "Друзья! Ваш любимый загрузчик с браузером снова в App Store, качайте скорее (бесплатно)!",
+        "lnk": "https://itunes.apple.com/app/id935520103",
+        "act": "Скачать"
+      },
+      "loc": "RU",
+      "sch": "qwedwl"
+    },
+    {
+      "motd": {
+        "msg": "Dear users, your favorite downloader with browser is back here (free)",
+        "lnk": "https://itunes.apple.com/app/id935520103",
+        "act": "Download"
+      },
+      "sch": "qwedwl",
+      "NOT": {
+        "OR":[
+          {"loc": "US"},
+          {"loc": "RU"}
+        ]
+      }
     }
   ]
 }
