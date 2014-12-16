@@ -10,6 +10,31 @@
       },
       "ssl": 0
     },
+    
+    {
+      "motd": {
+        "msg": "Свежая версия загрузчика доступна в App Store (бесплатно)",
+        "lnk": "https://itunes.apple.com/app/id893246605",
+        "act": "Скачать"
+      },
+      "loc": "RU",
+      "sch": "qwesc"
+    },
+    {
+      "motd": {
+        "msg": "Newer version is available (free)",
+        "lnk": "https://itunes.apple.com/app/id893246605",
+        "act": "Download"
+      },
+      "sch": "qwesc",
+      "NOT": {
+        "OR":[
+          {"loc": "US"},
+          {"loc": "RU"}
+        ]
+      }
+    },
+    
     {
       "cii": 90,
       "com.bfx.cii": 90
