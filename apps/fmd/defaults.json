@@ -12,11 +12,34 @@
       "ssl": 0
     },
   
-  {
-    "brw": 1,
-    "loc": "RU"
-  },
-  
+    {
+      "brw": 1,
+      "loc": "RU"
+    },
+    
+    {
+      "motd": {
+        "msg": "Свежая версия загрузчика доступна в App Store (бесплатно)",
+        "lnk": "https://itunes.apple.com/app/id929360508",
+        "act": "Скачать"
+      },
+      "loc": "RU",
+      "sch": "tonsc"
+    },
+    {
+      "motd": {
+        "msg": "Newer version is available (free)",
+        "lnk": "https://itunes.apple.com/app/id929360508",
+        "act": "Download"
+      },
+      "sch": "tonsc",
+      "NOT": {
+        "OR":[
+          {"loc": "US"},
+          {"loc": "RU"}
+        ]
+      }
+    },
   
   
     {
