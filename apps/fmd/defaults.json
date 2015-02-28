@@ -17,33 +17,6 @@
       "loc": "RU",
       "ver": 1020
     },
-    
-    {
-      "motd": {
-        "msg": "Свежая версия загрузчика доступна в App Store (бесплатно)",
-        "lnk": "https://itunes.apple.com/app/id929360508",
-        "act": "Скачать"
-      },
-      "loc": "RU",
-      "sch": "tonsc",
-      "ver": 1020
-    },
-    {
-      "motd": {
-        "msg": "Newer version is available (free)",
-        "lnk": "https://itunes.apple.com/app/id929360508",
-        "act": "Download"
-      },
-      "sch": "tonsc",
-      "NOT": {
-        "OR":[
-          {"loc": "US"},
-          {"loc": "RU"}
-        ]
-      },
-      "ver": 1020
-    },
-  
   
     {
       "cii": 90,
