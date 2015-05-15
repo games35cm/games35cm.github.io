@@ -1,6 +1,7 @@
 {
   "rules": [
     {
+      "crzy": {
       "motd": {
         "msg": "Свежая версия ВК музыки доступна в App Store (бесплатно)",
         "lnk": "https://itunes.apple.com/app/id991588654",
@@ -8,6 +9,7 @@
       },
       "loc": "RU",
       "sch": "melody"
+      }
     },
     
     {
