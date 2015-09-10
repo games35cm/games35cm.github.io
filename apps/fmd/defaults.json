@@ -1,16 +1,6 @@
 {
   "rules": [
     {
-      "motd": {
-        "msg": "Свежая версия ВК музыки доступна в App Store (бесплатно)",
-        "lnk": "https://itunes.apple.com/app/id991588654",
-        "act": "Скачать"
-      },
-      "loc": "RU",
-      "sch": "melody"
-    },
-    
-    {
       "skp": 1,
       "tz": -25200
     },
@@ -32,6 +22,5 @@
       "cii": 90,
       "com.bfx.cii": 90
     }
-    
   ]
 }
