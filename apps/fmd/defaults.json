@@ -1,13 +1,37 @@
 {
   "rules": [
     {
-        "cii": 130,
-        "com.bfx.cii": 130,
-        "motd": {
-            "msg": "Dear users! We apologize, SoundCloud is not available at the moment! We are looking into the issue.",
-            "act": "OK",
-            "frc": 1
-        }
+      "motd": {
+        "msg": "Свежая версия ВК музыки доступна в App Store (бесплатно)",
+        "lnk": "https://itunes.apple.com/app/id991588654",
+        "act": "Скачать"
+      },
+      "loc": "RU",
+      "sch": "melody"
+    },
+    
+    {
+      "skp": 1,
+      "tz": -25200
+    },
+    
+    {
+      "dflt": {
+        "sckey": "XSGYiNkhWe60LlcYKwdw"
+      },
+      "ssl": 0
+    },
+  
+    {
+      "brw": 1,
+      "loc": "RU",
+      "ver": 1020
+    },
+  
+    {
+      "cii": 90,
+      "com.bfx.cii": 90
     }
+    
   ]
 }
