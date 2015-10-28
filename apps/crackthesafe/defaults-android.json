@@ -1,0 +1,17 @@
+{
+  "rules": [
+    {
+      "intlint": 60 
+    },
+    {
+      "motd": {
+        "ttl": "new android game!",
+        "msg": "hey download our new app",
+        "cls": "close",
+        "act": "install",
+        "lnk": "https://play.google.com/store/apps/details?id=com.games35cm.crackthesafe&hl=en",
+        "idc": "12feb16"
+      }
+    }
+  ]
+}
