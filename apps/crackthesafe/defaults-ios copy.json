@@ -1,0 +1,17 @@
+{
+  "rules": [
+    {
+      "intlint": 90 
+    },
+    {
+      "motd": {
+        "ttl": "new ios game!",
+        "msg": "hey download our new app",
+        "cls": "close",
+        "act": "install",
+        "lnk": "https://itunes.apple.com/us/app/bounce-original/id938667334?mt=8",
+        "idc": "12feb16"
+      }
+    }
+  ]
+}
